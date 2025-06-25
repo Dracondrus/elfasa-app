@@ -34,7 +34,7 @@ const Menu = () => {
         justifyContent: "space-around",
         alignItems: "center",
         width: "100%",
-        padding: "12px 8px",
+        padding: "12px 8px 40px 8px",
         zIndex: 1000,
       }}
     >
