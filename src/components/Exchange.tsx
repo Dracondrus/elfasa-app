@@ -15,7 +15,7 @@ import {
   AiOutlineArrowRight
 } from "react-icons/ai";
 import { FiAward, FiZap } from "react-icons/fi";
-import { div } from "framer-motion/client";
+
 
 const Exchange = () => {
   const [points, setPoints] = useState(350);
