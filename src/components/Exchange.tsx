@@ -15,6 +15,7 @@ import {
   AiOutlineArrowRight
 } from "react-icons/ai";
 import { FiAward, FiZap } from "react-icons/fi";
+import { div } from "framer-motion/client";
 
 const Exchange = () => {
   const [points, setPoints] = useState(350);
@@ -148,6 +149,9 @@ const Exchange = () => {
   };
 
   return (
+ <>
+ <br />
+ <br />
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
@@ -551,6 +555,7 @@ const Exchange = () => {
         </div>
       </motion.div>
     </motion.div>
+ </>
   );
 };
 
