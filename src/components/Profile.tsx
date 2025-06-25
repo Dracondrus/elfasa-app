@@ -16,12 +16,11 @@ import {
   AiOutlineLogout,
   AiOutlineHeart,
   AiOutlineTrophy,
-  AiOutlineHistory,
-  AiOutlineTeam,
+
   AiOutlineMessage,
-  AiOutlineCheckCircle
+
 } from "react-icons/ai";
-import { FiActivity, FiAward } from "react-icons/fi";
+import {  FiAward } from "react-icons/fi";
 
 const Profile = () => {
   const [user, setUser] = useState({
@@ -41,7 +40,7 @@ const Profile = () => {
   });
 
   const [showSettings, setShowSettings] = useState(false);
-  const [activeTab, setActiveTab] = useState("profile");
+
   const [showAchievement, setShowAchievement] = useState(false);
 
   const toggleTheme = () => {

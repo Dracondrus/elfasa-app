@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   AiOutlineGift,
@@ -10,7 +10,7 @@ import {
   AiOutlineFire,
   AiOutlineRocket,
   AiOutlineCrown,
-  AiOutlineDollar,
+  
   AiOutlineHistory,
   AiOutlineArrowRight
 } from "react-icons/ai";
